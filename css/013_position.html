@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: relative;
+        }
+
+        .child {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+
+        }
+
+        .fixed {
+            background-color: yellow;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        .sticky {
+            background-color: coral;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+        }
+
+        .box1,
+        .box2 {
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        .box1 {
+            background-color: aqua;
+            z-index: 2;
+        }
+
+        .box2 {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height: 400px;"></div>
+
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+    <div class="fixed">Instagram</div>
+    <div class="sticky">im sticky</div>
+    <div style="height: 4000px;"></div>
+</body>
+
+</html>

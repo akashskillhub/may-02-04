@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .title {
+            background-color: red;
+        } */
+
+        /* .sub-title {
+            background-color: green;
+        }
+
+        .title,
+        .sub-title {
+            border: 10px dotted blue;
+            padding: 20px;
+        } */
+
+        /*
+            div>p              child
+            div p             decendant
+            div+p             immediate sibling
+            div~p             all sibling
+        */
+
+        div~p {
+            background-color: orange;
+        }
+
+        /* * {
+            border: 2px solid red;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- h1#test.title{hello} -->
+    <h1 class="title">hello</h1>
+    <p class="sub-title">hello</p>
+
+    <div>
+        <p>para1</p>
+        <p>para2</p>
+        <section>
+            <p>para 4</p>
+        </section>
+    </div>
+    <p>para3</p>
+    <h1>sibling</h1>
+    <p>para5</p>
+
+
+</body>
+
+</html>

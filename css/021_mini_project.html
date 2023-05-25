@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: coral;
+        }
+
+        .hero {
+            height: calc(100vh - 75px);
+            background-image: url("./assets/images/bg.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: bottom left;
+        }
+
+        .hero-img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: calc(100vh - 75px);
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 20%;
+            left: 20%;
+        }
+
+        .hero-content>h1 {
+            color: white;
+        }
+
+        .hero-content>p {
+            color: whitesmoke;
+            max-width: 50%;
+        }
+
+        .hero-content>a {
+            color: var(--primary);
+            border: 2px solid var(--primary);
+            padding: 1rem 2rem;
+            display: inline-block;
+            margin-top: 2rem;
+            text-decoration: none;
+            transition: 1s;
+        }
+
+        .hero-content>a:hover {
+            background-color: var(--primary);
+            color: whitesmoke;
+        }
+
+        .navbar {
+            background-color: var(--primary);
+            padding: 0px 4rem;
+            height: 75px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar>a {
+            text-decoration: none;
+        }
+
+        .navbar>a:hover {
+            color: whitesmoke;
+        }
+
+        .skills {
+            padding: 5rem 4rem;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .frontend,
+        .backend {
+            width: 50%;
+        }
+
+        .progress {
+            height: 2rem;
+            background-color: gray;
+            margin: 1rem 0rem;
+        }
+
+        .progress-bar {
+            height: 2rem;
+            background-color: var(--primary);
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .html {
+            width: 70%;
+        }
+
+        .css {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero"></div>
+    <img class="hero-img" src="./assets/images/bg-dots.svg" alt="">
+    <img class="hero-img" src="./assets/images/user.png" alt="">
+
+    <div class="hero-content">
+        <h1>hi my name is John</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quos eaque officia unde quibusdam delectus
+            distinctio iste dolorem, quas alias obcaecati minima vero quidem quis natus dignissimos debitis adipisci.
+            Reprehenderit!</p>
+        <a href="">hire me</a>
+    </div>
+
+    <div class="navbar">
+        <a href="">John</a>
+        <a href="">Home</a>
+        <a href="">Education</a>
+        <a href="">Projects</a>
+        <a href="">Experince</a>
+        <a href="">Contact</a>
+    </div>
+
+    <div class="skills">
+
+        <div class="frontend">
+            <div class="progress">
+                <div class="progress-bar html"> html</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar  css"> CSS</div>
+            </div>
+        </div>
+        <div class="backend">
+            <div class="progress">
+                <div class="progress-bar html"> Node</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar  css"> Sql</div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
