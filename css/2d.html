@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* flex-direction: column; */
+            gap: 1rem;
+            color: white;
+            background-image: radial-gradient(blue 30%, red)
+        }
+
+        .box {
+            width: 10%;
+            border: 2px solid red;
+            transition: 1s;
+            transform: scale(1);
+
+        }
+
+        .box:hover {
+            transform: scale(1.25) rotate(360deg);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus earum cumque nihil sit alias
+        similique magni rerum, tempore ad, molestiae consequatur? Dicta laborum eum maiores quae qui voluptatibus quasi
+        tenetur!</div>
+    <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus earum cumque nihil sit alias
+        similique magni rerum, tempore ad, molestiae consequatur? Dicta laborum eum maiores quae qui voluptatibus quasi
+        tenetur!</div>
+
+</body>
+
+</html>

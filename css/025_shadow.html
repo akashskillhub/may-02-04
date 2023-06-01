@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box {
+            width: 40%;
+            border: 2px solid black;
+            padding: 1rem 1.5rem;
+            transition: 1s;
+        }
+
+        .box:hover {
+            color: red;
+            border: 2px solid red;
+            box-shadow: 0px 0px 10px red;
+        }
+
+        .shadow {
+            text-shadow: 0px 0px 10px red, -10px -10px 5px blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="shadow">hello blue planet</h1>
+
+    <div class="box">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quo modi fugiat obcaecati ducimus est
+            repellat commodi, voluptatibus ipsam reiciendis architecto eveniet odit voluptatem. Sit enim minima
+            provident neque excepturi.</p>
+    </div>
+
+</body>
+
+</html>

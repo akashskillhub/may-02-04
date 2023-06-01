@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 2px solid red;
+            animation: moveup 1s infinite alternate;
+
+        }
+
+        .box1 {
+            height: 100px;
+            width: 100px;
+            border: 2px solid blue;
+            animation: movedown 1s infinite alternate;
+
+        }
+
+        /* @Rules */
+        @keyframes moveup {
+            0% {
+                margin-top: 0px;
+            }
+
+            100% {
+                margin-top: -100px;
+                background-color: red;
+
+            }
+        }
+
+        @keyframes movedown {
+            0% {
+                margin-top: 0px;
+            }
+
+            100% {
+                margin-top: 100px;
+                background-color: blue;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="box1"></div>
+</body>
+
+</html>

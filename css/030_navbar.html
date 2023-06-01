@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            background-color: coral;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: #FFF;
+        }
+
+        a {
+            color: #eee;
+            text-decoration: none;
+        }
+
+        .btn {
+            background-color: white;
+            border: 0;
+            padding: 1rem;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            color: coral;
+            display: none;
+        }
+
+        @media(max-width:800px) {
+            .btn {
+                display: inline;
+            }
+
+            a {
+
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>SKILLHUB</h1>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <button class="btn">
+            <i class="bi bi-list"></i>
+        </button>
+    </div>
+
+</body>
+
+</html>
