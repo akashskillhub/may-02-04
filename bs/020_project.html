@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <div id="nav-search" class="collapse alert alert-primary mb-0">
+        <div class="container">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Username">
+                <button type="button" class="btn btn-primary">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+            <h6 class="my-3">Quick Links</h6>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 1</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 2</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 3</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 4</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 5</a>
+                </div>
+
+                <div class="col-sm-3">
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 1</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 2</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 3</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 4</a>
+                    <a class="d-block mt-2 text-decoration-none" href=""> > Link 5</a>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img class="img-fluid"
+                                        src="https://rukminim1.flixcart.com/image/416/416/ky3b0y80/computer/o/x/k/vector-gp76-12ugs-gaming-laptop-msi-original-imagaenntv38qgcq.jpeg?q=70"
+                                        alt="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <h4>Featured Item</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">shop now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">SKILLHUB</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <div class="dropdown">
+                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown">
+                            Menu
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ms-auto">
+                    <button data-bs-toggle="collapse" data-bs-target="#nav-search" type="button"
+                        class="btn btn-outline-light">
+                        <i class="bi bi-search"></i>
+                    </button>
+                    <button data-bs-toggle="offcanvas" data-bs-target="#cart-offcanvas" type="button"
+                        class="btn btn-outline-light">
+                        <i class="bi bi-cart"></i>
+                    </button>
+                    <button data-bs-target="#login" data-bs-toggle="offcanvas" type="button" class="btn btn-light">
+                        Login <i class="bi bi-lock"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- offcanvas cart start -->
+
+
+    <div class="offcanvas offcanvas-end" id="cart-offcanvas">
+        <div class="offcanvas-header bg-primary text-light">
+            <h5 class="offcanvas-title">Cart</h5>
+            <button type="button" class=" btn-close text-bg-light" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body alert alert-primary mb-0">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid"
+                                src="https://rukminim1.flixcart.com/image/416/416/kirr24w0/computer/x/t/w/dell-na-thin-and-light-laptop-original-imafyhm53umy7d4d.jpeg?q=70"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>Dell XPS 13 Pro</h6>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>99,999/-</strong>
+                        </div>
+                    </div>
+                    <p class="text-success">you have saved <strong>14,555</strong> on this order</p>
+                    <div class="btn-group w-100">
+                        <button type="button" class="btn btn-outline-dark">Left</button>
+                        <button type="button" class="btn btn-outline-warning">Middle</button>
+                        <button type="button" class="btn btn-outline-danger">Right</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img class="img-fluid"
+                                src="https://rukminim1.flixcart.com/image/416/416/kirr24w0/computer/x/t/w/dell-na-thin-and-light-laptop-original-imafyhm53umy7d4d.jpeg?q=70"
+                                alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6>Dell XPS 13 Pro</h6>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="col-sm-3">
+                            <strong>99,999/-</strong>
+                        </div>
+                    </div>
+                    <p class="text-success">you have saved <strong>14,555</strong> on this order</p>
+                    <div class="btn-group w-100">
+                        <button type="button" class="btn btn-outline-dark">Left</button>
+                        <button type="button" class="btn btn-outline-warning">Middle</button>
+                        <button type="button" class="btn btn-outline-danger">Right</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-body">
+                    <p class="text-secondary " data-bs-toggle="collapse" data-bs-target="#coupon">I have coupon</p>
+                    <div id="coupon" class="collapse">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                            <button type="button" class="btn btn-primary">Apply</button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-between">
+                        <span>Price</span>
+                        <span>887122</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span>Est Tax</span>
+                        <span>8822</span>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between">
+                        <span>total</span>
+                        <span>2128822</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- offcanvas cart end -->
+
+    <!-- login start -->
+
+
+    <div class="offcanvas offcanvas-end" id="login">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="card">
+                <div class="card-header">Login</div>
+                <div class="card-body">
+                    <div>
+                        <label for="email" class="form-label">First Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <div class="mt-2">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Your Password" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <button type="button" class="btn btn-primary w-100 mt-3">
+                        Login
+                    </button>
+                    <p class="text-center mt-3">
+                        Dont Have Account? <a href="#">Create Account</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- login end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
